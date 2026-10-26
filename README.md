@@ -16,7 +16,7 @@ Country-level analysis — Compared sales and profit across countries.
 
 Profit margin analysis — Calculated profit margin percentages and ranked countries by total profit and profit margin.
 
-SQL Skills Demonstrated
+#SQL Skills Demonstrated
 
 Aggregate functions such as COUNT() and SUM()
 

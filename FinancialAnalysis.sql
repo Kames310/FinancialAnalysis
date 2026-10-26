@@ -13,18 +13,18 @@ SELECT
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'FinancialSample'
 ORDER BY ORDINAL_POSITION;
-
+--4
 SELECT TOP 10 * FROM dbo.FinancialSample
 SELECT DISTINCT PRODUCT
 FROM dbo.FinancialSample
 ORDER BY product;
-
+--5
 SELECT
     SUM(sales) AS TotalSales,
     SUM(cogs) AS TotalCOGS,
     SUM(profit) AS TotalProfit
 FROM dbo.FinancialSample
-
+--6
 SELECT
     country,
     SUM(sales) AS TotalSales,
@@ -32,7 +32,7 @@ SELECT
 FROM dbo.FinancialSample
 GROUP BY country
 ORDER BY TotalSales DESC;
-
+--7
 SELECT
     Country,
     SUM(sales) AS TotalSales,
